@@ -2,7 +2,6 @@ from tkinter.tix import Tree
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
-from numpy import product
 from carts.models import CartItem
 from .forms import OrderForm
 import datetime
