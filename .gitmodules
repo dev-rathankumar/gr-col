@@ -1,0 +1,3 @@
+[submodule "council-farms-project"]
+	path = council-farms-project
+	url = https://github.com/ccouncil/council-farms-project.git

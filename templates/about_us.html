@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+{% block content %}
+
+<section class="section-intro padding-y-sm">
+	<div class="container">
+	
+	<div class="intro-banner-wrap">
+		<img src="{% static './images/mylogo.jpg' %}" class="img-fluid rounded">
+	</div>
+	
+	</div> <!-- container //  -->
+	</section>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Bootstrap Paragraphs Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+            .bcontent {
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="text-center">Welcome to Council Farms</h2>
+            <p>In 1941, Coy Council purchased 125 acres just outside of Albany, Georgia. He had always dreamed of ownning his own land 
+                and now 81 years later, that dream is still carried out by his descendants. Over the course of our 81 year history, our family farm 
+                has gone through many changes. From a housing a fully operational dairy, growing and selling Christmas trees, horse stables, growing cotton, corn,
+                and hay, to now raising livestock and other farm animals. 
+                
+            </p>
+            <p>We are devoted to providing premium grass-fed, grass-finished, and free range beef to our customers. We believe that our animals ought
+                to be in their natural habitats and be provided a natural diet devoid of any 
+            </p>
+        </div>
+    </body>
+    </html>
+
+
+
+
+
+{% endblock %}
