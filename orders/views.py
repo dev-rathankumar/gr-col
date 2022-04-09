@@ -1,4 +1,3 @@
-from tkinter.tix import Tree
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
