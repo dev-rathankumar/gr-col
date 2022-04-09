@@ -49,16 +49,7 @@ INSTALLED_APPS = [
     'ecomm_council_farms',
     'carts',
     'orders',
-    'admin_honeypot',
-    
-   
-    
-    
-   
-    
-    
-
-    
+    'admin_honeypot',    
 ]
 
 MIDDLEWARE = [
@@ -70,8 +61,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
-
-    
 ]
 
 
@@ -109,7 +98,7 @@ AUTH_USER_MODEL = 'accounts.Account'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-import os
+
 if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
         'default': {
